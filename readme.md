@@ -1,3 +1,5 @@
+sudo apt-get install ffmpeg
+
 下载 youtube_dl
 注意必须是这个版本
 pip install git+https://github.com/ytdl-org/youtube-dl.git@master#egg=youtube_dl
