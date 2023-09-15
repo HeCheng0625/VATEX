@@ -15,8 +15,9 @@ video_container = 'mp4'
 
 video_save_path = 'vatex_public_test_english/video'
 audio_save_path =  'vatex_public_test_english/audio'
-
 download_json_file = "/home/v-detaixin/VATEX/vatex_public_test_english_v1.1.json"
+
+
 with open(download_json_file, "r") as f:
     download_infos = json.load(f)
 print(len(download_infos))
